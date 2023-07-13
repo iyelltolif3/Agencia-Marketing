@@ -1,8 +1,10 @@
+import Layouts from "hocs/layouts/layouts";
+
 function Home(){
     return(
-        <div>
+        <Layouts>
             <h1>Home</h1>
-        </div>
+        </Layouts>
     )
 }
 export default Home;
